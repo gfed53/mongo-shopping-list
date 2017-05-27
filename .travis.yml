@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: UTQRgeg7dk2JFCbS5cz/ut/sCLNY6k346vNGrrt08oj3jHt2nmSZt7eatc+8I5EO+1ofGFPXFwqrafxxWQKcMJ7it+rjY0t7ZUg/NtIJGZhVbmsPf+f6fXeCY/eBzx/VL2lt9o3WRnZhmRwP62IzAwwglk+pH+b0VnhfBHWJSqMs7x5pr88CJeHbZBp6MHaxyXpDN1eqCcV4zq/sUxEucANVf8Cvzs/wsXG/Zwwzw++0KLuw8AQcsopI1mIpQU1RXoBcLogGOdUGz2vdnmXYhIm0ix++0qPJkioKI6baBpvv3i+uioQuLBSpt3aXGQzJAYpBwwBPXt79eqET4sk0PkYC5FUzOTHJffc1Xyv1ejTYoaIc3AEtfGmpjvqpqppeTosFLoskSEXMAgB6reLP3xyyRQaKMXcnzfaxSoU4JY07qWW0u3dBDgPbNdxnNrmKuEYBruBED9ljz5xQDe7zZbD9er8PwEdlqCjV8DYbyqa3qIXhSUfSFW1Z1EvkuniygiLlz2Y8hWNERR3BH/Tna5nWjXw4rp6CeaGka/XEQ0F9l+pHPqvZbXPgIsbzAtNW6DGqNOzfA+0OOERzRLLPGNS3GFV6NWadpUYmNJlA3NX5xYPKjBh8/nCDxWhnTz61D8x3TeelIJhEUP5K0dgOq8sjrqStvr+5E11dOsUWhRA=
+  app: guarded-atoll-39816
+  on:
+    repo: gfed53/mongo-shopping-list
